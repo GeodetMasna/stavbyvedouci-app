@@ -247,7 +247,9 @@
                     poznamkaGeodeta: '',
                     datumDokonceni: '',
                     prilohaFileId: prilohaFileId,
-                    potvrzenoGeodet: 'Ne'
+                    terminPotvrzen: 'Ne',
+                    schvaleneDatum: '',
+                    schvalenyCas: ''
                 });
 
                 const response = await fetch(`${API_URL}?${params}`);
